@@ -29,7 +29,7 @@ const Home = () => {
 
   // Load initial random movies
   useEffect(() => {
-    const randomMovies = ['Avengers', 'Batman', 'Spider-Man', 'Harry Potter'];
+    const randomMovies = ['Interstellar', 'Batman', 'Transformers', 'Demon Slayer'];
     const randomQuery = randomMovies[Math.floor(Math.random() * randomMovies.length)];
     searchMovies(randomQuery);
   }, []);
